@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UITestSuite" duration-ms="184" started-at="2022-02-07T16:15:04Z" finished-at="2022-02-07T16:15:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Testing" duration-ms="184" started-at="2022-02-07T16:15:04Z" finished-at="2022-02-07T16:15:04Z">
+      <class name="com.securends.Testrunner.TestRunner">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2022-02-07T21:45:04Z" finished-at="2022-02-07T21:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="setUpClass" is-config="true" duration-ms="168" started-at="2022-02-07T21:45:04Z" finished-at="2022-02-07T21:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2022-02-07T21:45:04Z" finished-at="2022-02-07T21:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.securends.Testrunner.TestRunner -->
+    </test> <!-- Testing -->
+  </suite> <!-- UITestSuite -->
+</testng-results>
