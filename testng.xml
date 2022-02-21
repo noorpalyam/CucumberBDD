@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<!-- <suite name="UITestSuite" parallel="tests" data-provider-thread-count="6"> -->
-<suite name="UITestSuite" thread-count="3">
-    <test name="Testingchrome">
+<suite name="UITestSuite" parallel="tests" data-provider-thread-count="1">
+
     <parameter name="host" value="local"/>
-     <parameter name="browser" value="chrome"/>
-    <parameter name="environment" value="QA"/>
-    <parameter name="client" value="qa6"/>
-        <classes>
-            <class name="com.securends.Testrunner.TestRunner"></class>
-        </classes>
-    </test> 
-   <!--  <test name="Testingfirefox">
-    <parameter name="host" value="local"/>
-     <parameter name="browser" value="firefox"/>
-    <parameter name="environment" value="QA"/>
-    <parameter name="client" value="qa8"/>
-        <classes>
-            <class name="com.securends.Testrunner.TestRunner"></class>
-        </classes>
-    </test>  -->
-    <test name="Testingedge">
-    <parameter name="host" value="local"/>
-     <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <parameter name="environment" value="QA"/>
     <parameter name="client" value="qa11"/>
+    <test name="Testing" preserve-order="true">
         <classes>
             <class name="com.securends.Testrunner.TestRunner"></class>
         </classes>
-    </test>  
+    </test>
 </suite>
