@@ -1,0 +1,168 @@
+2022-02-18 12:39:18,418[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:39:18,426[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 12:39:18,426[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:39:18,426[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:39:18,921[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:39:18,930[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 12:39:21,529[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 12:39:21,544[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 12:39:21,544[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 12:40:42,301[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:40:42,301[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:firefox
+2022-02-18 12:40:42,301[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:40:42,301[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:40:42,309[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:40:42,309[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:firefox
+2022-02-18 12:40:45,166[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:40:45,166[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 12:40:45,166[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:40:45,166[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:40:45,175[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:40:45,175[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 12:40:48,095[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 12:40:48,224[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 12:40:48,224[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 12:42:25,104[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:42:25,104[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 12:42:25,104[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:42:25,104[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:42:25,584[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:42:25,584[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 12:42:29,203[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 12:42:29,222[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 12:42:29,222[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 12:43:50,069[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:43:50,069[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:firefox
+2022-02-18 12:43:50,069[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:43:50,069[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:43:50,081[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:43:50,081[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:firefox
+2022-02-18 12:43:53,409[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - firefox:
+2022-02-18 12:43:53,678[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa6.securends.com
+2022-02-18 12:43:53,678[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa6.securends.com
+2022-02-18 12:46:54,805[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:46:54,805[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 12:46:54,805[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:46:54,813[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:46:54,827[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:46:54,827[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 12:46:57,510[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 12:46:57,638[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 12:46:57,638[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 12:55:08,395[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:55:08,395[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 12:55:08,395[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:55:08,395[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:55:08,901[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:55:08,902[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 12:55:11,098[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 12:55:11,119[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa6.securends.com
+2022-02-18 12:55:11,119[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa6.securends.com
+2022-02-18 12:56:26,072[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 12:56:26,073[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:firefox
+2022-02-18 12:56:26,073[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 12:56:26,073[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 12:56:26,080[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 12:56:26,080[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:firefox
+2022-02-18 12:56:28,822[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - firefox:
+2022-02-18 12:56:29,077[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa8.securends.com
+2022-02-18 12:56:29,077[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa8.securends.com
+2022-02-18 13:00:24,304[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 13:00:24,304[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 13:00:24,304[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 13:00:24,308[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 13:00:24,330[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 13:00:24,330[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 13:00:27,155[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 13:00:27,285[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 13:00:27,285[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 13:05:41,845[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 13:05:41,845[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 13:05:41,845[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 13:05:41,845[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 13:05:42,336[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 13:05:42,337[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 13:05:45,807[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 13:05:45,829[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa6.securends.com
+2022-02-18 13:05:45,829[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa6.securends.com
+2022-02-18 13:06:48,835[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 13:06:48,835[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 13:06:48,835[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 13:06:48,843[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 13:06:48,855[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 13:06:48,856[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 13:06:51,638[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 13:06:51,770[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 13:06:51,778[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 16:44:15,443[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 16:44:15,443[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 16:44:15,443[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 16:44:15,443[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 16:44:15,968[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 16:44:15,968[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 16:44:18,568[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 16:44:18,583[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa6.securends.com
+2022-02-18 16:44:18,583[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa6.securends.com
+2022-02-18 16:45:30,743[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 16:45:30,743[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:firefox
+2022-02-18 16:45:30,743[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 16:45:30,743[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 16:45:30,748[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 16:45:30,753[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:firefox
+2022-02-18 16:45:34,574[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - firefox:
+2022-02-18 16:45:34,838[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa8.securends.com
+2022-02-18 16:45:34,838[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa8.securends.com
+2022-02-18 16:48:44,168[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 16:48:44,173[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 16:48:44,173[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 16:48:44,173[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 16:48:44,194[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 16:48:44,194[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 16:48:47,052[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 16:48:47,172[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 16:48:47,172[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 16:52:23,023[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 16:52:23,028[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 16:52:23,028[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 16:52:23,028[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 16:52:23,541[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 16:52:23,542[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 16:52:26,582[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 16:52:26,592[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa6.securends.com
+2022-02-18 16:52:26,592[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa6.securends.com
+2022-02-18 16:53:35,492[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 16:53:35,503[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:firefox
+2022-02-18 16:53:35,503[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 16:53:35,503[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 16:53:35,512[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 16:53:35,512[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:firefox
+2022-02-18 16:53:38,332[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - firefox:
+2022-02-18 16:53:38,596[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa8.securends.com
+2022-02-18 16:53:38,596[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa8.securends.com
+2022-02-18 16:57:46,287[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 16:57:46,287[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 16:57:46,292[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 16:57:46,292[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 16:57:46,312[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 16:57:46,312[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 16:57:48,030[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 16:57:48,162[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 16:57:48,162[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com
+2022-02-18 17:01:10,862[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 17:01:10,862[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:chrome
+2022-02-18 17:01:10,862[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 17:01:10,862[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 17:01:11,385[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 17:01:11,386[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:chrome
+2022-02-18 17:01:15,082[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - Chrome:
+2022-02-18 17:01:15,101[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa6.securends.com
+2022-02-18 17:01:15,101[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa6.securends.com
+2022-02-18 17:02:29,332[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of before suite method in Test Runner class
+2022-02-18 17:02:29,332[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - browser:edge
+2022-02-18 17:02:29,332[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - host:local
+2022-02-18 17:02:29,332[1508601]  INFO [main] com.securends.Testrunner.TestRunner[1]:XL - End of test param method in Test Runner class
+2022-02-18 17:02:29,342[1508601]  INFO [PoolService-0] com.securends.managers.DriverManager[1]:XL - middile of DriverManager method in DriverManager class
+2022-02-18 17:02:29,342[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - browser:edge
+2022-02-18 17:02:31,373[1508601]  INFO [PoolService-0] com.securends.managers.BrowserFactory[1]:XL - edge:
+2022-02-18 17:02:31,491[1508601]  INFO [PoolService-0] com.securends.Stepdefinition.LoginSteps[1]:XL - Url:https://qa11.securends.com
+2022-02-18 17:02:31,491[1508601]  INFO [PoolService-0] com.securends.managers.Base[1]:XL - Opening the application URL :https://qa11.securends.com

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="Edge"/>
+  <test name="ChromeTest">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.securends.Testrunner.CrossBrowserScript"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="FirefoxTest">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.securends.Testrunner.CrossBrowserScript"/>
+    </classes>
+  </test> <!-- FirefoxTest -->
+  <test name="EdgeTest">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.securends.Testrunner.CrossBrowserScript"/>
+    </classes>
+  </test> <!-- EdgeTest -->
+  <test name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.securends.Testrunner.CrossBrowserScript">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- com.securends.Testrunner.CrossBrowserScript -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

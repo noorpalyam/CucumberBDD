@@ -40,7 +40,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 			<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -50,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Feb 7, 2022 07:42:39 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Feb 18, 2022 05:01:10 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -65,7 +64,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -119,12 +118,12 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='$0%'>
-                    <span class='strong'>0</span> features passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='$100%'>
+                    <span class='strong'>1</span> features passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
-                    1</span> features failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> features failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped
                 </div>
@@ -137,12 +136,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'>
-                    <span class='strong'>0</span> scenarios passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'>
+                    <span class='strong'>2</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
-                    1</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> scenarios failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -157,14 +156,14 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'>
-                    <span class='strong'>0</span> steps passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'>
+                    <span class='strong'>6</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='33%'>
-                    1</span> steps failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='66%'>
-                    2</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> others
                 </div>
@@ -185,11 +184,11 @@
 	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login</span>
-						<span class='test-time'>Feb 7, 2022 07:42:39 PM</span>
-						<span class='test-status right fail'>Fail</span>
+						<span class='test-time'>Feb 18, 2022 05:01:11 PM</span>
+						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -199,45 +198,61 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 
-<div class='scenario outline node' test-id='2' status='Fail'>
+<div class='scenario outline node' test-id='2' status='Pass'>
 
-	<span class='duration right label'>00 00 00.016</span>
+	<span class='duration right label'>00 02 26.261</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario Outline: Login to Securends application</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Login to Securends application</div>
 	</div>
 	
-		<div class='node-desc'><table class='markup-table table '><tr><td>URL</td><td>username</td><td>password</td></tr><tr><td>url</td><td>username</td><td>password</td></tr></table></div>
+		<div class='node-desc'><table class='markup-table table '><tr><td>URL</td><td>username</td><td>password</td></tr><tr><td>url</td><td>username</td><td>password</td></tr></table><br><br><table class='markup-table table '><tr><td>URL</td><td>username</td><td>password</td></tr><tr><td>url</td><td>username</td><td>password</td></tr></table></div>
 	
 		<div class='category-list'>
 				<span class='category label'>@sanityTest</span>
 		</div>
 	
 	<ul class='steps'>
-		<li test-id='3' class='node scenario Fail' status='Fail'>
-			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Login to Securends application</div>
+		<li test-id='3' class='node scenario Pass' status='Pass'>
+			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Login to Securends application</div>
 
 				<div class='category-list'>
 						<span class='category label'>@sanityTest</span>
 				</div>
 
 			<ul class='gc steps'>
-				<li test-id='4' class='gc given Fail' status='Fail'>
-					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.navigate(java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given I open Securends Application "url"</h6>
+				<li test-id='4' class='gc given Pass' status='Pass'>
+					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.navigate(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I open Securends Application "url"</h6>
 
-							<textarea disabled class="code-block">java.lang.NullPointerException
-	at com.securends.Stepdefinition.LoginSteps.navigate(LoginSteps.java:24)
-	at ✽.I open Securends Application "url"(file:///D:/SecurendsBDD/securends-cucumber-automation/src/test/resources/Features/Login.feature:7)
-</textarea>
 				</li>
-				<li test-id='5' class='gc when Skip' status='Skip'>
-					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.login(java.lang.String,java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When I Login as admin "username","password"</h6>
+				<li test-id='5' class='gc when Pass' status='Pass'>
+					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.login(java.lang.String,java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When I Login as admin "username","password"</h6>
 
-							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='6' class='gc when Skip' status='Skip'>
-					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.i_Logout_of_the_Application()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When I Logout of the Application</h6>
+				<li test-id='6' class='gc when Pass' status='Pass'>
+					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.logout()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When I Logout of the Application</h6>
 
-							<div class="node-step">Step skipped</div>
+				</li>
+			</ul>
+		</li>
+		<li test-id='7' class='node scenario Pass' status='Pass'>
+			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Login to Securends application</div>
+
+				<div class='category-list'>
+						<span class='category label'>@sanityTest</span>
+				</div>
+
+			<ul class='gc steps'>
+				<li test-id='8' class='gc given Pass' status='Pass'>
+					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.navigate(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I open Securends Application "url"</h6>
+
+				</li>
+				<li test-id='9' class='gc when Pass' status='Pass'>
+					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.login(java.lang.String,java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When I Login as admin "username","password"</h6>
+
+				</li>
+				<li test-id='10' class='gc when Pass' status='Pass'>
+					<h6 class="step-name" title="com.securends.Stepdefinition.LoginSteps.logout()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When I Logout of the Application</h6>
+
 				</li>
 			</ul>
 		</li>
@@ -289,13 +304,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@sanityTest</span>
 						<span class='category-status right'>
-						<span class='label fail'>2</span>
+						<span class='label pass'>3</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 3</span>
 							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 2</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -309,14 +324,19 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 07:42:39 PM</td>
+										<td>Feb 18, 2022 05:01:11 PM</td>
 										<td class='linked' test-id='2'>Login to Securends application</td>
-										<td><span class='test-status Fail'>Fail</span></td>
+										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 7, 2022 07:42:39 PM</td>
+										<td>Feb 18, 2022 05:01:11 PM</td>
 										<td class='linked' test-id='3'>Login to Securends application</td>
-										<td><span class='test-status Fail'>Fail</span></td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Feb 18, 2022 05:02:29 PM</td>
+										<td class='linked' test-id='7'>Login to Securends application</td>
+										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -332,65 +352,7 @@
 		</div>
 	</div>
 </div>
-<!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NullPointerException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>StackTrace</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Feb 7, 2022 07:42:39 PM</td>
-										<td class='linked' test-id='4'>Given I open Securends Application "url"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at com.securends.Stepdefinition.LoginSteps.navigate(LoginSteps.java:24)
-	at ✽.I open Securends Application "url"(file:///D:/SecurendsBDD/securends-cucumber-automation/src/test/resources/Features/Login.feature:7)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- category view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -404,31 +366,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>6</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 7, 2022 07:42:39 PM</div>
+					<div class='panel-lead'>Feb 18, 2022 05:01:10 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 7, 2022 07:42:39 PM</div>
+			 		<div class='panel-lead'>Feb 18, 2022 05:03:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 00.549</div>
+					<div class='panel-lead'>00 02 26.661</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -445,11 +407,11 @@
 						</tr>
 						<tr>
 							<td>@sanityTest</td>
+							<td>3</td>
 							<td>0</td>
-							<td>2</td>
 							<td>0</td>
 							<td>
-									0%
+									100%
 							</td>
 						</tr>
 					</table>
@@ -464,34 +426,34 @@
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				childCount: 1,
-				passChild: 0,
-				failChild: 1,
+				childCount: 2,
+				passChild: 2,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 3,
-				passGrandChild: 0,
-				failGrandChild: 1,
+				grandChildCount: 6,
+				passGrandChild: 6,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 2,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 			};
 			</script>
 		
 		<script>
 			var timeline = {
-			        "Login":0.016
+			        "Login":146.261
 			};
 		</script>
 		
