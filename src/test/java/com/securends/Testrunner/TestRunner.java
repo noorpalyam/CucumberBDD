@@ -1,23 +1,24 @@
 package com.securends.Testrunner;
 
 import org.apache.log4j.BasicConfigurator;
-import org.junit.runner.RunWith;
+import org.apache.log4j.Logger;
 import org.testng.annotations.*;
 
 import com.securends.dataproviders.ConfigFileReader;
-
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-@RunWith(Cucumber.class)
 @CucumberOptions(
 	features = "/SecurendsBDD/securends-cucumber-automation/src/test/resources/Features",
 	glue= {"com.securends.Stepdefinition"},
 			plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+					tags = {"@sanityTest"},
 	monochrome=true
 )
+
 public class TestRunner  extends AbstractTestNGCucumberTests {
+	
+	public Logger log = Logger.getLogger(this.getClass());
 	
 	@Override
 	@DataProvider(parallel=true)
@@ -26,24 +27,29 @@ public class TestRunner  extends AbstractTestNGCucumberTests {
 		return super.scenarios();
 	}
 	
-	@BeforeMethod
+	//@BeforeMethod
+	@BeforeTest
 	@Parameters({"browser","host"})
 	public void testParam(@Optional String browser, @Optional String host)
 	{
-		//driverManager.initialize(browser,host);
+		log.info("browser:"+browser);
+		log.info("host:"+host);
 		System.setProperty("localbrowser",browser);
 		System.setProperty("host",host);
+		log.info("End of test param method in Test Runner class");
 	}
+	
 
-	@BeforeSuite
+	//@BeforeSuite
+	@BeforeTest
 	@Parameters({"environment","client"})
 	public void beforeSuite(String environment,String client)
 	{
 		BasicConfigurator.configure();
 		System.setProperty("localEnvironment",environment);
 		System.setProperty("localClient",client);
-		//System.setProperty("localApplication", application);
 		ConfigFileReader.readPropertyFile(environment,client);
+		log.info("End of before suite method in Test Runner class");
 	}
 
 }

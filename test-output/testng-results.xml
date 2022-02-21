@@ -1,16 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="UITestSuite" duration-ms="184" started-at="2022-02-07T16:15:04Z" finished-at="2022-02-07T16:15:04Z">
+  <suite name="UITestSuite" duration-ms="146798" started-at="2022-02-18T11:31:10Z" finished-at="2022-02-18T11:33:37Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.securends.Testrunner.TestRunner@3c0ecd4b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.securends.Testrunner.TestRunner@59494225]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Testing" duration-ms="184" started-at="2022-02-07T16:15:04Z" finished-at="2022-02-07T16:15:04Z">
+    <test name="Testingchrome" duration-ms="78472" started-at="2022-02-18T11:31:10Z" finished-at="2022-02-18T11:32:29Z">
       <class name="com.securends.Testrunner.TestRunner">
-        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2022-02-07T21:45:04Z" finished-at="2022-02-07T21:45:04Z">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.securends.Testrunner.TestRunner@3c0ecd4b]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2022-02-18T17:01:10Z" finished-at="2022-02-18T17:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testParam(java.lang.String, java.lang.String)[pri:0, instance:com.securends.Testrunner.TestRunner@3c0ecd4b]" name="testParam" is-config="true" duration-ms="0" started-at="2022-02-18T17:01:10Z" finished-at="2022-02-18T17:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParam -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.securends.Testrunner.TestRunner@3c0ecd4b]" name="setUpClass" is-config="true" duration-ms="369" started-at="2022-02-18T17:01:10Z" finished-at="2022-02-18T17:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.securends.Testrunner.TestRunner@3c0ecd4b]" name="runScenario" duration-ms="77821" started-at="2022-02-18T17:01:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-18T17:02:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Securends application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.securends.Testrunner.TestRunner@3c0ecd4b]" name="tearDownClass" is-config="true" duration-ms="261" started-at="2022-02-18T17:02:29Z" finished-at="2022-02-18T17:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.securends.Testrunner.TestRunner -->
+    </test> <!-- Testingchrome -->
+    <test name="Testingedge" duration-ms="68318" started-at="2022-02-18T11:32:29Z" finished-at="2022-02-18T11:33:37Z">
+      <class name="com.securends.Testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.securends.Testrunner.TestRunner@59494225]" name="setUpClass" is-config="true" duration-ms="8" started-at="2022-02-18T17:02:29Z" finished-at="2022-02-18T17:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testParam(java.lang.String, java.lang.String)[pri:0, instance:com.securends.Testrunner.TestRunner@59494225]" name="testParam" is-config="true" duration-ms="0" started-at="2022-02-18T17:02:29Z" finished-at="2022-02-18T17:02:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParam -->
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.securends.Testrunner.TestRunner@59494225]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2022-02-18T17:02:29Z" finished-at="2022-02-18T17:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -26,15 +107,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="setUpClass" is-config="true" duration-ms="168" started-at="2022-02-07T21:45:04Z" finished-at="2022-02-07T21:45:04Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.securends.Testrunner.TestRunner@59494225]" name="runScenario" duration-ms="68281" started-at="2022-02-18T17:02:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-18T17:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Securends application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.securends.Testrunner.TestRunner@36d4b5c]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2022-02-07T21:45:04Z" finished-at="2022-02-07T21:45:04Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.securends.Testrunner.TestRunner@59494225]" name="tearDownClass" is-config="true" duration-ms="28" started-at="2022-02-18T17:03:37Z" finished-at="2022-02-18T17:03:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.securends.Testrunner.TestRunner -->
-    </test> <!-- Testing -->
+    </test> <!-- Testingedge -->
   </suite> <!-- UITestSuite -->
 </testng-results>

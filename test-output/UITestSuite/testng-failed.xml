@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [UITestSuite]" parallel="tests" data-provider-thread-count="1">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [UITestSuite]">
   <parameter name="environment" value="QA"/>
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="edge"/>
   <parameter name="host" value="local"/>
   <parameter name="client" value="qa11"/>
-  <test name="Testing">
+  <test name="Testingchrome">
+    <parameter name="environment" value="QA"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="host" value="local"/>
+    <parameter name="client" value="qa6"/>
     <classes>
       <class name="com.securends.Testrunner.TestRunner"/>
     </classes>
-  </test> <!-- Testing -->
+  </test> <!-- Testingchrome -->
+  <test name="Testingedge">
+    <parameter name="environment" value="QA"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="host" value="local"/>
+    <parameter name="client" value="qa11"/>
+    <classes>
+      <class name="com.securends.Testrunner.TestRunner"/>
+    </classes>
+  </test> <!-- Testingedge -->
 </suite> <!-- Failed suite [UITestSuite] -->
